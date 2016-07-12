@@ -10,7 +10,7 @@ Some days ago I saw an amazing [blat's](https://twitter.com/ferblape){:target="_
 
 Usually swarm cluster are listening in 4000 or 3376 port and docker engine in 2375 or 2376 port, so, that's what I use to check it.
 
-This way you can advertise easily if you are pointing yout docker variables to a remote docker engine or swarm cluster.
+This way you can advertise easily if you are pointing your docker variables to a remote docker engine or a swarm cluster.
 
 {% highlight bash %}
 # Parse DOCKER_HOST. Expecting this format: DOCKER_HOST="tcp://swarm-node-01.stackvdi.com:4000"
