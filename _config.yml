@@ -4,26 +4,26 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "raulkite's blog"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Learning and travelling
 
-email: a-mail@mail.mail
+email: raul@um.es
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/koala.jpg"
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/minimized.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+name: 'raulkite'
+author: 'Raul Sanchez'
+author_image: "/assets/images/turtle.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://raulkite.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+twitter_handle: '@ra_garu'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -31,7 +31,7 @@ twitter_handle: '@dirkfabisch'
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
+    url:	https://twitter.com/ra_garu
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -45,7 +45,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/raulkite
     desc:	Fork me on github
     share_url:
     share_title:
