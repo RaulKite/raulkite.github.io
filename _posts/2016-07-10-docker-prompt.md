@@ -6,7 +6,7 @@ category: docker
 tags: docker 
 image: /assets/article_images/2016-07-10-docker-prompt-in-bash/banner.jpg
 ---
-Some days ago I saw an amazing [blat's](https://twitter.com/ferblape){:target="_blank"} [tweet](https://twitter.com/ferblape/status/735073552127365120){:target="_blank"}. His code changes your prompt advertising you if your `DOCKER_HOST` variable is set. I have made some "improvements" to differentiate connections to simple docker hosts and swarm clusters. 
+Some days ago I saw an amazing [blat's](https://twitter.com/ferblape){:target="_blank"} [tweet](https://twitter.com/ferblape/status/735073552127365120){:target="_blank"}. His code changed your prompt advertising you if your `DOCKER_HOST` variable was set. I have made some "improvements" to differentiate connections to simple docker hosts and swarm clusters. 
 
 Usually swarm cluster are listening in 4000 or 3376 port and docker engine in 2375 or 2376 port, so, that's what I use to check it.
 
