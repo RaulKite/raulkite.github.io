@@ -17,7 +17,7 @@ So I clone the official jenkins image and generate a new one importing from java
 $ git clone https://github.com/jenkinsci/docker.git
 $ cd jenkinsci
 $ sed -i 's/openjdk:8-jdk/openjdk:7-jdk/g' Dockerfile
-$ docker docker build -t ralkite/jenkins:conjava7 .
+$ docker docker build -t raulkite/jenkins:conjava7 .
 
 {% endhighlight %}
 
