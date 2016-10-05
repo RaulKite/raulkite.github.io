@@ -72,7 +72,7 @@ We create the new jenkins image and launch it:
 
 {% highlight bash %}
 $ docker build -t raulkite/jenkins_dockerizado .
-$ sudo docker run -d --name jenkins -p 8443:8443 -p 50000:50000 -v /srv/jenkins/:/var/jenkins_home raulkite/jenkins_dockerizado
+$ sudo docker run -d --name jenkins -p 8443:8443 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v /srv/jenkins/:/var/jenkins_home raulkite/jenkins_dockerizado
 {% endhighlight %}
 
 And ... voila!
